@@ -1,0 +1,18 @@
+extends layout
+block main content
+	div.summary
+		On the 
+		span.exchange #{exchange} 
+		| exchange 
+		span.pair #{pair} 
+		| price is at 
+		span.price $#{price}
+	div.details
+		p last trade: #{last}
+		p ask: #{high}
+		p bid: #{low}
+		div.change
+			h2 change
+			div percentage:  #{percentage}
+			div absolute: #{absolute}
+	

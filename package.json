@@ -1,0 +1,16 @@
+{
+  "name": "crypto_webapp",
+  "version": "1.0.0",
+  "description": "a locally hosted web application to acsess various api's for crptocurrency and blockchain applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rimann91",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0"
+  }
+}

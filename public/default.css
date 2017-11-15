@@ -1,0 +1,53 @@
+/* Default style for layout.pug */
+
+:root {
+	--blue: #076678;
+	--red: #cc241d;
+	--light: #f2e5bc;
+	--green: #689d6a;
+	--dark: #32302f;
+	--yellow: #fabd2f
+
+}
+
+
+body {
+	background-color: var(--dark) }
+
+h1 {}
+p {}
+form {
+	text-align: center;
+}
+.exchange {
+	color: var(--blue);
+	background-color: var(--light);
+}
+.pair {
+	background-color: var(--yellow);
+	color: black;
+}
+.price {
+	background-color: var(--green);
+}
+.summary {
+	text-align: center;
+	margin: 25px 25px 25px 25px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+	color: white;
+	border: 5px solid var(--light) 
+}
+
+.details {
+	text-align: center;
+	border: 5px solid var(--light);
+	padding: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 25px;
+	color: var(--light);
+	background-color: black; 
+}
+.change {
+	border-top: 2px solid var(--light);
+}
+

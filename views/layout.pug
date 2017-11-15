@@ -1,0 +1,25 @@
+//- Parent page layout
+doctype html
+html
+	head
+		title crypto tracking webapp
+		meta(charset="UTF-8")
+		block css
+			link(rel="stylesheet", href="default.css", type="text/css")
+		block scripts
+
+	body
+		form(action="?usrOption=" method="get" name="usrInput")
+			select#usrInput(type="text" name="pair")
+				option(value = "btcusd") Bitcoin
+				option(value = "ltcusd") Litecoin
+				option(value = "ethusd") Ethereum 
+
+			input(type="submit" value = "submit")
+			
+		block nav
+		block page header
+		block main content
+			#{data}
+		block footer
+
